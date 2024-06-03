@@ -19,6 +19,43 @@
             </ul>
         </div>
     </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Amshu Chitrakar</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">My Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img class="pp" src="./assets/profile-pic.png" alt="Amshu Chitrakar profile picture">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Amshu Chitrakar</h1>
+            <p class="section__text__p2">Project Manager</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/Amshu_Chitrakar_2024.pdf')">Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Me</button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="My LinkedIn profile"
+                class="icon" onclick="location.href='https://www.linkedin.com/in/amshu-chitrakar-69760b16b/'">
+                <img src="./assets/github.png" alt="My GitHub profile"
+                class="icon" onclick="location.href='https://github.com/4mshu?tab=overview&from=2024-06-01&to=2024-06-02'">
+
+            </div>
+        </div>
+    </section>
     <script src="script.js"></script>
 </body>
 </html>
